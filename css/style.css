@@ -1,0 +1,33 @@
+body{
+margin:0;
+font-family:Arial;
+background:#070b18;
+color:white;
+}
+.navbar{
+display:flex;
+justify-content:space-between;
+padding:20px;
+background:#0d1328;
+}
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+.hero{
+height:90vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+button{
+padding:15px 25px;
+border:none;
+border-radius:10px;
+background:#00c3ff;
+color:white;
+cursor:pointer;
+}

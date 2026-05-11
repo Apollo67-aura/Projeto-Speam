@@ -4,62 +4,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Speam</title>
-<link rel="stylesheet" href="style.css">
-<script src="https://kit.fontawesome.com/7c0fce4d8c.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
 <header class="navbar">
-  <div class="logo">SPEAM</div>
-
-  <ul class="nav-links" id="navLinks">
-    <li><a href="#">Início</a></li>
-    <li><a href="#">Loja</a></li>
-    <li><a href="#">Biblioteca</a></li>
-    <li><a href="#">Comunidade</a></li>
-  </ul>
-
-  <div class="actions">
-    <input type="text" id="searchInput" placeholder="Pesquisar jogos">
-    <button id="loginBtn">Login</button>
-    <button id="cartBtn">Carrinho (<span id="cartCount">0</span>)</button>
-  </div>
+<h1>SPEAM</h1>
+<nav>
+<a href="index.html">Início</a>
+<a href="pages/store.html">Loja</a>
+<a href="pages/library.html">Biblioteca</a>
+<a href="pages/community.html">Comunidade</a>
+</nav>
 </header>
 
 <section class="hero">
-  <div class="overlay"></div>
-  <div class="hero-content">
-    <h1>Bem-vindo à Speam</h1>
-    <p>A nova geração das plataformas de jogos.</p>
-    <button>Comprar Agora</button>
-  </div>
+<h2>Plataforma Gamer Profissional</h2>
+<p>Interface inspirada em plataformas modernas.</p>
+<button>Explorar Jogos</button>
 </section>
 
-<section class="games">
-  <div class="game-card" data-name="Cyber Nexus">
-    <img src="https://images.unsplash.com/photo-1542751110-97427bbecf20?q=80&w=1200&auto=format&fit=crop">
-    <h2>Cyber Nexus</h2>
-    <p>FPS Multiplayer</p>
-    <button class="buyBtn" data-name="Cyber Nexus">Adicionar</button>
-  </div>
-
-  <div class="game-card" data-name="Shadow Realms">
-    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1200&auto=format&fit=crop">
-    <h2>Shadow Realms</h2>
-    <p>RPG Fantasia</p>
-    <button class="buyBtn" data-name="Shadow Realms">Adicionar</button>
-  </div>
-</section>
-
-<div class="modal" id="loginModal">
-  <div class="modal-box">
-    <h2>Entrar</h2>
-    <input type="email" placeholder="Email">
-    <input type="password" placeholder="Senha">
-    <button>Entrar</button>
-  </div>
-</div>
-
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
